@@ -7,7 +7,7 @@ authors = [
 ]
 license = {text = "Apache-2.0"}
 readme = "README.md"
-requires-python = ">=3.10"
+requires-python = ">=3.10,<3.13" # TODO: remove upper bound once chromadb is upgraded to 1.0.8 https://github.com/chroma-core/chroma/issues/4382#issuecomment-2839646570
 dependencies = [
     "click~=8.1.7",
     "cookiecutter~=2.5.0",
